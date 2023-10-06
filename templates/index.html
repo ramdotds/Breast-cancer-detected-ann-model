@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/index.css">
+    <title>Breast Cancer Detection Ann Model</title>
+</head>
+<body class="bcmbody">
+
+    <header class="breast_cancer_model_header">
+        <nav>
+            <ul>
+                <li class="ul_li"><a href="/" id="b_c_m_a">Home</a></li>
+                <li class="ul_li"><a href="/readme">Readme.md</a></li>
+                <li class="ul_li"><a href="https://github.com/ramdotds">Git Hub</a></li>
+                <li class="ul_li"><a href="https://www.linkedin.com/in/ram-datascientist">Linkedin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="breast_cancer_model_main"  id="b_c_m_b">
+        <h2>Breast Cancer Detection (ANN) Model</h2>
+        <p> Befor Filling check your values. If you fill wrong value then get the wrong prediction</p>
+        <div class="bcdresult">
+            {{pred}}
+        </div>
+
+        <form action="/" method="post" id="b_c_m_form">
+            <div>
+            <input type="text" name="f1" id="bcm_f1" placeholder="mean radius">
+            <input type="text" name="f2" id="bcm_f2" placeholder="mean texture">
+            <input type="text" name="f3" id="bcm_f3" placeholder="mean perimeter">
+            <input type="text" name="f4" id="bcm_f4" placeholder="mean area">
+            <input type="text" name="f5" id="bcm_f5" placeholder="mean smoothness">
+            <input type="text" name="f6" id="bcm_f6" placeholder="mean compactness">
+            <input type="text" name="f7" id="bcm_f7" placeholder="mean concavity">
+            <input type="text" name="f8" id="bcm_f8" placeholder="mean concave points">
+            <input type="text" name="f9" id="bcm_f9" placeholder="mean symmetry">
+            <input type="text" name="f10" id="bcm_f10" placeholder="mean fractal dimension">
+            <input type="text" name="f11" id="bcm_f11" placeholder="radius error">
+            <input type="text" name="f12" id="bcm_f12" placeholder="texture error">
+            <input type="text" name="f13" id="bcm_f13" placeholder="perimeter error">
+            <input type="text" name="f14" id="bcm_f14" placeholder="area error">
+            <input type="text" name="f15" id="bcm_f15" placeholder="smoothness error">
+            <input type="text" name="f16" id="bcm_f16" placeholder="compactness error">
+            <input type="text" name="f17" id="bcm_f17" placeholder="concavity error">
+            <input type="text" name="f18" id="bcm_f18" placeholder="concave points error">
+            <input type="text" name="f19" id="bcm_f19" placeholder="summetry error">
+            <input type="text" name="f20" id="bcm_f20" placeholder="fractal dimension error">
+            <input type="text" name="f21" id="bcm_f21" placeholder="worst radius">
+            <input type="text" name="f22" id="bcm_f22" placeholder="worst texture">
+            <input type="text" name="f23" id="bcm_f23" placeholder="worst perimeter">
+            <input type="text" name="f24" id="bcm_f24" placeholder="worst area">
+            <input type="text" name="f25" id="bcm_f25" placeholder="worst smoothness">
+            <input type="text" name="f26" id="bcm_f26" placeholder="worst compactness">
+            <input type="text" name="f27" id="bcm_f27" placeholder="worst concavity">
+            <input type="text" name="f28" id="bcm_f28" placeholder="worst concave points">
+            <input type="text" name="f29" id="bcm_f29" placeholder="worst symmetry">
+            <input type="text" name="f30" id="bcm_f30" placeholder="worst fractal dimension">
+        </div>
+            <button type="reset">Reset Form</button><button type="submit">Submit Form</button>
+        </form>
+        <footer>
+            @ Ram (ram.dsbusiness@gmail.com) || Copywirte by Ram 2024
+        </footer>
+    </main>
+</body>
+</html>

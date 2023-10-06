@@ -1,0 +1,117 @@
+*{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .bcmbody{
+            position:fixed;
+            overflow: hidden;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+
+        /*-----------------------------------------------------------breast cancer header*/
+        .breast_cancer_model_header{
+            background: #22386c;
+            width: 100vw;
+            position: fixed;
+        }
+        .breast_cancer_model_header>nav>ul{
+            display: flex;
+            flex-flow: wrap;
+        }
+        .breast_cancer_model_header>nav>ul>.ul_li{
+            border: 2px solid transparent;
+            margin: 15px;
+            list-style: none;
+        }
+        .breast_cancer_model_header>nav>ul>.ul_li>a{
+            border: 1px solid transparent;
+            text-decoration: none;
+            padding: 10px;
+            font-family: Algerian;
+            color: white;
+            letter-spacing: 1px;
+        }
+        #b_c_m_a{
+            border-bottom: 5px solid white;
+        }
+        .breast_cancer_model_header>nav>ul>.ul_li>a:hover{
+            border-bottom: 5px solid white;
+        }
+        /* ------------------------------------------------------------------main with form box */
+        
+        #b_c_m_b{
+            background: url(../img/background.png) no-repeat;
+            width: 100vw;
+            height: 100vh;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            overflow: scroll;
+
+        }
+        #b_c_m_b>h2{
+            border: 2px solid transparent;
+            padding: 20px;
+            width: fit-content;
+            margin: auto;
+            margin-bottom: 5px;
+            margin-top: 50px;
+            border-bottom: 1px solid rgb(255, 249, 249);
+            color: #22386c;
+        }
+        #b_c_m_b>P{
+            border-bottom: 1px solid rgb(199, 197, 197);
+            padding: 5px;
+            color: rgb(122, 41, 41);
+        }
+        #b_c_m_b>form{
+            border: 1px solid transparent;
+            display: flex;
+            flex-flow: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        #b_c_m_b>form>div>input{
+            outline: none;
+            border: none;
+            margin: 1px;
+            padding: 15px;
+            background: url(../img/header.png);
+            color: white;
+        }
+        @media only screen and (min-width:0px) and (max-width:790px) {
+            #b_c_m_b>form>div>input{
+                padding: 15px;
+                padding-right: 80px;
+            }
+            #b_c_m_b>h2{
+                margin-top: 100px;
+            }
+        }
+        #b_c_m_b>form>button{
+            padding: 10px 40px;
+            margin: 20px;
+            background: white;
+            color: rgb(70, 59, 59);
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border: 1px solid gray;
+            cursor: pointer;
+        }
+        /* ------------------------------------------------------------Result button*/
+        .bcdresult{
+            border: 3px solid transparent;
+            padding: 10px;
+            font-size: 1.8rem;
+            font-variant: small-caps;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            background: #22386c;
+        }
+        /* ------------------------------------------------------------------footer*/
+        #b_c_m_b>footer{
+            color: rgb(199, 197, 197);
+        }
